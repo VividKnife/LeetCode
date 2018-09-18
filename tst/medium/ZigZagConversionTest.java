@@ -1,8 +1,8 @@
 package medium;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
  * Created by shufakan on 5/15/17.
@@ -17,5 +17,4 @@ public class ZigZagConversionTest {
         String solution1 = ZigZagConversion.solution(inputSet1, 3);
         assertEquals(expectOutput1, solution1);
     }
-
 }
